@@ -1,0 +1,21 @@
+/*
+Theme Name: QLCHI - Wordpress Uncode Child Theme Demo
+Theme URI: https://quantumleapchicago.com
+Author: Owen | Lv 32 Cyberwizard | Quantum Leap Chicago
+Author URI: https://quantumleapchicago.com
+Template: uncode-lite
+Description: Proof of concept Child Theme for Uncode. This simply extends uncode-lite and changes body background color to red.
+Version: 0.1
+License: Free and open source - GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: demo
+*/
+
+
+/* include uncode-lite parent style */
+@import url(../uncode-lite/style.css);
+
+/* Add our red background to <body> tag (exclude header) */
+body {
+    background-color: #f00 !important;
+}
